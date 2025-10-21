@@ -1,0 +1,27 @@
+html{
+    background-color: #F2F2F2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h1{
+    color: rgb(52, 52, 52);
+    text-align: center;
+}
+
+#Login{
+    width: 70%;
+
+    align-items: center;
+
+}
+
+#botonIniciarSesion{
+    display: grid;
+}
+
+#IniciarSesion{
+    size: ;
+    background-color: #4F96F4;
+    color: white;
+}

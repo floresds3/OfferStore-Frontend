@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Offer Store</title>
+    <link rel="stylesheet" href="components/Login/Login.css">
+</head>
+<body>
+    <main id="Cart">
+        <h1 id="sesion">Iniciar Sesión</h1>
+
+        <div id="Login">
+
+            <fieldset>
+                <legend>Correo electrónico</legend>
+
+                <div>
+                   <input type="email" id="email" name="email" placeholder="example@ejemplo.com" required>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Contraseña</legend>
+
+                <div>
+                    <input type="password" id="password" name="password" minlength="8" placeholder="Mínimo 8 caracteres" required>
+                    <small id="ayuda-pass">Usa al menos 8 caracteres.</small>
+                </div>
+
+            </fieldset>
+
+            <label id="RecoverPassword">¿Olvidaste tu contraseña?</label>
+            
+            <div id="botonIniciarSesion">
+                <button id="IniciarSesion">Iniciar sesión</button>
+            </div>
+
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+                Recordar contraseña
+            </label>
+
+            <div>
+                <label id="OptionsLogin">Or</label>
+            </div>
+
+            <div id="btnGoogle">
+                <button>Google</button>
+            </div>
+
+            <div id="btnFacebook">
+                <button>Facebook</button>
+            </div>
+
+            <label id="RecoverPassword">¿No tienes cuenta? Crear cuenta</label>
+        </div>
+    </main>
+</body>
+</html>
