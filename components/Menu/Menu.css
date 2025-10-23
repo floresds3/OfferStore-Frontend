@@ -1,4 +1,4 @@
-/* General Reset */
+/* Estilos del Menu */
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +37,7 @@ body {
   object-fit: cover;
 }
 
-/* Dropdown Menu */
+/* Menu Desplegable */
 .menu-dropdown {
   position: relative;
 }
@@ -183,10 +183,10 @@ body {
 .ad-banner {
   display: flex;
   justify-content: center;
-  margin: 10px auto 10px auto;
+  margin: 20px auto 10px auto;
   max-width: 50%;
   padding: 0 20px;
-  transform: translateX(0%); /* Desplazamiento suave hacia la derecha */
+  transform: translateX(0%); /* Desplazamiento hacia la derecha */
 }
 
 .ad-banner img {
