@@ -2,3 +2,13 @@ html{
     background-color: #F2F2F2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#Cart{
+    width: 350px;
+    margin: auto;
+}
+
+#IniciarSesion{
+    background-color:#4F96F4;
+    color: white;
+}
