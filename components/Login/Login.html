@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Offer Store</title>
-    <link rel="stylesheet" href="components/Login/Login.css">
+    <link rel="stylesheet" href="Login.css">
 </head>
 <body>
     <main id="Cart">
+
+        <img src="../../assets/Icons/usuario.png" alt="Usuario">
+
         <h1 id="sesion">Iniciar Sesión</h1>
 
         <div id="Login">
@@ -16,7 +19,7 @@
                 <legend>Correo electrónico</legend>
 
                 <div>
-                   <input type="email" id="email" name="email" placeholder="example@ejemplo.com" required>
+                   <input type="email" id="email" name="email" placeholder="email@address.com" required>
                 </div>
 
             </fieldset>
@@ -33,8 +36,8 @@
 
             <label id="RecoverPassword">¿Olvidaste tu contraseña?</label>
             
-            <div id="botonIniciarSesion">
-                <button id="IniciarSesion">Iniciar sesión</button>
+            <div id="IniciarSesion">
+                <button id="btnIniciarSesion">Iniciar sesión</button>
             </div>
 
             <label class="switch">
@@ -43,16 +46,20 @@
                 Recordar contraseña
             </label>
 
-            <div>
-                <label id="OptionsLogin">Or</label>
-            </div>
+            <div id="social-login-options">
+                <div>
+                    <label id="OptionsLogin">Or</label>
+                </div>
 
-            <div id="btnGoogle">
-                <button>Google</button>
-            </div>
+                <div id="Google">
+                    <button id="btnGoogle">Iniciar sesión con Google</button>
+                    <img src="../../assets/Icons/googleIcono.png" alt="Facebook Icon" class="icon-social">
+                </div>
 
-            <div id="btnFacebook">
-                <button>Facebook</button>
+                <div id="Facebook">
+                    <button id="btnFacebook">Iniciar sesión con Facebook</button>
+                    <img src="../../assets/Icons/facebook.png" alt="Google Icon" class="icon-social">
+                </div>
             </div>
 
             <label id="RecoverPassword">¿No tienes cuenta? Crear cuenta</label>
