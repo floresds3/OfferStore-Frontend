@@ -1,0 +1,90 @@
+html{
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Registro{
+    text-align: center;
+}
+#Registro .logo{
+    display: block;
+    margin: 0 auto 10px;
+    width: 150px;
+}
+
+
+#btnFacebook {
+    text-align: center;
+}
+#TextFace{
+    background-color: blue;
+    color: white;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 105px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#IconoFacebook{
+    width: 20px; 
+    height: 20px;
+}
+
+
+#btnGoogle{
+    text-align: center;
+}
+#TextGoogle{
+    background-color: white;
+    color: black;
+    align-items: center;
+    gap: 30px;
+    padding: 13px 115px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#IconoGoogle{
+    width: 20px; 
+    height: 20px;
+}
+
+
+
+
+
+
+#OptionsRegistro{
+    text-align: center;
+    padding: 20px;
+}
+
+#Correo{
+    width: 360px;
+    margin: 0 auto; 
+    text-align: left;   
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#Contra{
+    width: 360px;
+    margin: 0 auto;  
+    text-align: left; 
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+#botonCrearCuenta{
+    text-align: center;
+}
+#CrearCuenta{
+    background-color: #4F96F4;
+    color: white;
+    padding: 10px 150px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
