@@ -7,11 +7,18 @@
   <link rel="stylesheet" href="../Menu/Menu.css" />
 </head>
 <body>
+
   <header class="header">
+    <!-- 
+    Subtitulo opcional
+    <h2 class="subtitle">Lo que buscas al mejor precio y más cerca</h2> -->
     <div class="header-left">
       <img src="../../assets/img/menu/logo.png" alt="Logo" class="logo-img" />
+      <span class="logo-text">Volver al inicio</span>
     </div>
+
     <div class="header-right">
+      <button>Iniciar sesión</button>
 <div class="menu-dropdown">
   <button class="menu-button" onclick="toggleDropdown()">☰</button>
   <img src="../../assets/img/menu/avatar.png" alt="Foto de perfil" class="profile-img" onclick="toggleDropdown()" />
@@ -36,8 +43,6 @@
     <button>Buscar</button>
   </div>
 
-  <h2 class="subtitle">Encuentra lo que buscas al mejor precio y más cerca de ti</h2>
-
   <main>
     <section class="categories">
       <div class="category"><img src="../../assets/img/menu/carnes.jpeg" alt="Carnes" /><p>Carnes</p></div>
@@ -60,7 +65,6 @@
   }
 
     function cerrarSesion() {
-    // Limpiar datos de sesión aqui, si se usa localStorage o cookies
         const confirmar = confirm("¿Estás seguro de que deseas cerrar sesión?");
     if (confirmar) {
       window.location.href = "../Login/Login.html";
