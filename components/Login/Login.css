@@ -10,8 +10,8 @@ html{
 }
 
 #Login{
-    max-width: 500px;
-    margin: 50px auto 0;
+    max-width: 700px;
+    margin: 200px auto 0;
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
@@ -38,14 +38,28 @@ input, button{
     font-size: 16px;
 }
 
+button{
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
 #IniciarSesion {
     margin: 15px 0 15px;
 }
 
 #btnIniciarSesion{
-    background-color:#4F96F4;
+    background-color:#F2B705;
     color: white;
 }
+
+#btnIniciarSesion:hover{
+    background-color: #cf9c03;
+}
+
 
 #social-login-options{
     margin: 15px 0 15px;
@@ -67,12 +81,20 @@ input, button{
 #btnGoogle{
     background-color: white;
     color: #000;
-    border: 1px solid #ccc;
+    border: 1px solid #e2e2e2;
+}
+
+#btnGoogle:hover{
+    background-color: #f0efef;
 }
 
 #btnFacebook{
     background-color: #3b5998;
     color: white;
+}
+
+#btnFacebook:hover{
+    background-color: #142b61;
 }
 
 #btnGoogle img.icon-social,

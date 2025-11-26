@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Offer Store</title>
+
+    <link rel="icon" href="../../assets/Icons/FavIconLogo-OfferStore.png" type="image/png">
     <link rel="stylesheet" href="Login.css">
 </head>
 <body>
@@ -23,7 +25,7 @@
                 <legend>Correo electrónico</legend>
 
                 <div>
-                   <input type="email" id="email" name="email" placeholder="email@address.com" required>
+                   <input type="email" id="email" name="email" placeholder="Correo@direccion.com" required>
                 </div>
 
             </fieldset>
@@ -32,13 +34,15 @@
                 <legend>Contraseña</legend>
 
                 <div>
-                    <input type="password" id="password" name="password" minlength="8" placeholder="Mínimo 8 caracteres" required>
+                    <input type="password" id="password" name="password" minlength="8" placeholder="Mínimo 8 carácteres" required>
                     <small id="ayuda-pass">Usa al menos 8 caracteres.</small>
                 </div>
 
             </fieldset>
 
-            <label id="RecoverPassword">¿Olvidaste tu contraseña?</label>
+            <a id="RecoverPassword" href="../../components/Recuperar_Contraseña/Recuperar_Contraseña.html">
+                ¿Olvidaste tu contraseña?
+            </a>
             
             <div id="IniciarSesion">
                 <button id="btnIniciarSesion">Iniciar sesión</button>
@@ -70,7 +74,9 @@
                 </div>
             </div>
 
-            <label id="RecoverPassword">¿No tienes cuenta? Crear cuenta</label>
+            <p id="RecoverPassword" class="enlace-crear-cuenta">
+                ¿No tienes cuenta? <a href="../../components/Registro_Cuenta/RegistroCuenta.html">Crear cuenta</a>
+            </p>
         </div>
     </main>
 </body>
