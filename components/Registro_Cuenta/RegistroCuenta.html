@@ -1,54 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offer Store</title>
-    <link rel="stylesheet" href="RegistroCuenta.css">
-</head>
-<body>
-    <main id="Cart">
-        <h1 id="Registro">
-            <img src="logo.png" alt="Logo" class="logo">Registro de Cuenta
-        </h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Offer Store - Registro</title>
 
-        <div id="Registro">
+        <link rel="icon" href="../../assets/Icons/FavIconLogo-OfferStore.png" type="image/png">
+        <link rel="stylesheet" href="RegistroCuenta.css">
+    </head>
+    <body>
 
-            <div id="btnFacebook">
-                <button id="TextFace"> <img src="FacebookLogo (1).png" alt="" id="IconoFacebook"> continuar con Facebook</button>
+        <main id="Cart">
+
+            <div class="header-left">
+                <a href="../Login/Login.html">
+                    <img src="../../assets/Icons/Logo-OfferStore(1).png" alt="Logo-OfferStore" class="Logo-OfferStore"/>
+                </a>
             </div>
 
-            <div id="btnGoogle">
-                <button id="TextGoogle"><img src="logoGoogle (1).png" alt="" id="IconoGoogle">continuar con Google</button>
-            </div>
+            <div id="Registro">
 
-            <div id="OptionsRegistro">
-                <label >Or</label> 
-            </div>
+                <img src="../../assets/Icons/usuario.png" alt="Usuario">
 
-            <fieldset id="Correo">
-                <legend>Correo Electronico</legend>
+                <h1 id="titulo-registro">Crear Cuenta</h1>
 
-                <div>
-                    <input type="email" id="email" name="email" placeholder="example@ejemplo.com" required> 
+                <div id="social-login-options">
+                    
+                    <div id="Facebook">
+                        <button id="btnFacebook">
+                            <img src="../../assets/Icons/facebook.png" alt="Facebook Icon" class="icon-social">
+                            Continuar con Facebook
+                        </button>
+                    </div>
+
+                    <div id="Google">
+                        <button id="btnGoogle">
+                            <img src="../../assets/Icons/googleIcono.png" alt="Google Icon" class="icon-social">
+                            Continuar con Google
+                        </button>
+                    </div>
+
+                    <div>
+                        <label id="OptionsLogin">Or</label>
+                    </div>
                 </div>
 
-            </fieldset>
+                <fieldset>
+                    <legend>Correo electrónico</legend>
 
-            <fieldset id="Contra">
-                <legend>Contraseña</legend>
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="Correo@direccion.com" required>
+                    </div>
+                </fieldset>
 
-                <div>
-                    <input type="password" id="password" name="password" minlength="8" placeholder="Mínimo 8 caracteres" required>
-                    <small id="ayuda-pass"></small>
+                <fieldset>
+                    <legend>Contraseña</legend>
+
+                    <div>
+                        <input type="password" id="password" name="password" minlength="8" placeholder="Mínimo 8 carácteres" required>
+                        <small id="ayuda-pass">Usa al menos 8 carácteres.</small>
+                    </div>
+                </fieldset>
+
+                <div id="CrearCuentaContainer">
+                    <button id="btnCrearCuenta">Crear Cuenta</button>
                 </div>
 
-            </fieldset>
-
-            <div id="botonCrearCuenta">
-                <button id="CrearCuenta">Crear Cuenta</button>
             </div>
-        </div>
-    </main>
-</body>
+        </main>
+
+    </body>
 </html>

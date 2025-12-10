@@ -1,81 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Menú Principal</title>
-  <link rel="stylesheet" href="../Menu/Menu.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offer Store - Menú Principal</title>
+
+    <link rel="stylesheet" href="../Menu/Menu.css" />
 </head>
+
 <body>
-  <header class="header">
-    <div class="header-left">
-      <img src="../../assets/img/menu/logo.png" alt="Logo" class="logo-img" />
+
+    <header class="header">
+
+        <div class="header-left">
+            <img src="../../assets/Icons/Logo-OfferStore(1).png" alt="Logo OfferStore" class="logo-img" />
+        </div>
+
+        <div class="header-right">
+            <div class="menu-dropdown">
+
+                <button class="menu-button" onclick="toggleDropdown()">☰</button>
+
+                <img src="../../assets/img/menu/avatar.png"
+                     alt="Foto de perfil"
+                     class="profile-img"
+                     onclick="toggleDropdown()" />
+
+                <div class="dropdown-content" id="dropdownMenu">
+                    <a href="../EditarPerfil/EditarPerfil.html">Editar perfil</a>
+                    <a href="../EditarPerfil/Fav.html">Favoritos</a>
+                    <a href="../EditarPerfil/Fav.html">Carrito</a>
+                    <a href="#" onclick="cerrarSesion()">Cerrar sesión</a>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="ad-banner">
+        <img src="../../assets/img/menu/anuncio.jpeg" alt="Anuncio promocional" />
     </div>
-    <div class="header-right">
-  <div class="menu-dropdown">
-  <button class="menu-button" onclick="toggleDropdown()">☰</button>
-  <img src="../../assets/img/menu/avatar.png" alt="Foto de perfil" class="profile-img" onclick="toggleDropdown()" />
-  <div class="dropdown-content" id="dropdownMenu">
-    <a href="../EditarPerfil/EditarPerfil.html">Editar perfil</a>
-    <a href="../EditarPerfil/Fav.html">Favoritos</a>
-    <a href="../EditarPerfil/Fav.html">Carrito</a>
-    <a href="#" onclick="cerrarSesion()">Cerrar sesión</a>
-    <!-- Más opciones futuras -->
-  </div>
-</div>
-      </div>
-  </header>
 
-<!-- Imagen de anuncio -->
-<div class="ad-banner">
-  <img src="../../assets/img/menu/anuncio.jpeg" alt="Anuncio promocional" />
-</div>
+    <div class="search-bar">
+        <input type="text" placeholder="¿Qué producto desea buscar?" />
+        <button>Buscar</button>
+    </div>
 
-  <div class="search-bar">
-    <input type="text" placeholder="¿Qué producto desea buscar?" />
-    <button>Buscar</button>
-  </div>
+    <h2 class="subtitle">
+        Encuentra lo que buscas al mejor precio y más cerca de ti
+    </h2>
 
-  <h2 class="subtitle">Encuentra lo que buscas al mejor precio y más cerca de ti</h2>
+    <main>
 
-  <main>
-    <section class="categories">
-      <div class="category"><img src="../../assets/img/menu/carnes.jpeg" alt="Carnes" /><p>Carnes</p></div>
-      <div class="category"><img src="../../assets/img/menu/lacteos.jpeg" alt="Lácteos" /><p>Lácteos</p></div>
-      <div class="category"><img src="../../assets/img/menu/frutas.jpeg" alt="Frutas/Verduras" /><p>Frutas/Verduras</p></div>
-      <div class="category"><img src="../../assets/img/menu/cereales.jpeg" alt="Cereales" /><p>Cereales</p></div>
-      <div class="category"><img src="../../assets/img/menu/leguminosas.jpeg" alt="Leguminosas" /><p>Leguminosas</p></div>
-      <div class="category"><img src="../../assets/img/menu/bebidas.jpeg" alt="Bebidas" /><p>Bebidas</p></div>
-      <div class="category"><img src="../../assets/img/menu/botanas.jpeg" alt="Botanas" /><p>Botanas</p></div>
-      <div class="category"><img src="../../assets/img/menu/hogar.jpeg" alt="Hogar" /><p>Hogar</p></div>
-      <div class="category"><img src="../../assets/img/menu/higiene.jpeg" alt="Higiene y Limpieza" /><p>Higiene y Limpieza</p></div>
-    </section>
-  </main>
+        <section class="categories">
+
+            <div class="category">
+                <img src="../../assets/img/menu/carnes.jpeg" alt="Carnes" />
+                <p>Carnes</p>
+            </div>
+
+            <div class="category">
+                <img src="../../assets/img/menu/lacteos.jpeg" alt="Lácteos" />
+                <p>Lácteos</p>
+            </div>
+
+            <div class="category">
+                <img src="../../assets/img/menu/frutas.jpeg" alt="Frutas y Verduras" />
+                <p>Frutas/Verduras</p>
+            </div>
+
+            <div class="category">
+                <img src="../../assets/img/menu/cereales.jpeg" alt="Cereales" />
+                <p>Cereales</p>
+            </div>
+
+            <div class="category">
+                <img src="../../assets/img/menu/leguminosas.jpeg" alt="Leguminosas" />
+                <p>Leguminosas</p>
+            </div>
+
+            <div class="category">
+                <img src="../../assets/img/menu/bebidas.jpeg" alt="Bebidas" />
+                <p>Bebidas</p>
+            </div>
+
+            <div class="category">
+                <img src="../../assets/img/menu/botanas.jpeg" alt="Botanas" />
+                <p>Botanas</p>
+            </div>
+
+            <div class="category">
+                <img src="../../assets/img/menu/hogar.jpeg" alt="Hogar" />
+                <p>Hogar</p>
+            </div>
+
+            <div class="category">
+                <img src="../../assets/img/menu/higiene.jpeg" alt="Higiene y Limpieza" />
+                <p>Higiene y Limpieza</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script>
+        function toggleDropdown() {
+            const menu = document.getElementById("dropdownMenu");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+
+        function cerrarSesion() {
+            const confirmar = confirm("¿Estás seguro de que deseas cerrar sesión?");
+            if (confirmar) {
+                window.location.href = "../Login/Login.html";
+            }
+        }
+
+        window.addEventListener("click", function(e) {
+            const button = document.querySelector(".menu-button");
+            const profile = document.querySelector(".profile-img");
+            const menu = document.getElementById("dropdownMenu");
+
+            if (!button.contains(e.target) &&
+                !profile.contains(e.target) &&
+                !menu.contains(e.target)) {
+                menu.style.display = "none";
+            }
+        });
+    </script>
+
 </body>
-
-<script>
-  function toggleDropdown() {
-    const menu = document.getElementById('dropdownMenu');
-    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
-  }
-
-    function cerrarSesion() {
-    // Limpiar datos de sesión aqui, si se usa localStorage o cookies
-        const confirmar = confirm("¿Estás seguro de que deseas cerrar sesión?");
-    if (confirmar) {
-      window.location.href = "../Login/Login.html";
-    }
-  }
-
-  window.addEventListener('click', function(e) {
-    const button = document.querySelector('.menu-button');
-    const profile = document.querySelector('.profile-img');
-    const menu = document.getElementById('dropdownMenu');
-    if (!button.contains(e.target) && !profile.contains(e.target) && !menu.contains(e.target)) {
-      menu.style.display = 'none';
-    }
-  });
-</script>
-
-
 </html>

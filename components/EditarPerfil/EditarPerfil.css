@@ -1,106 +1,97 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html{
+    background-color: #F2F2F2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-
-.logo-img {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 200px; 
-  height: auto;
-}
-
-.container {
-  max-width: 500px;
-  margin: 50px auto 0;
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.profile-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-  background-color: #ddd;
-  margin-bottom: 10px; /* Espacio entre avatar y botón */
-}
-
-.change-photo {
-  background-color: transparent;
-  border: none;
-  color: #4F96F4;
-  cursor: pointer;
-  font-size: 14px;
-}
-
-.profile-form label {
-  display: block;
-  margin-top: 15px;
-  margin-bottom: 5px;
-  color: #555;
-}
-
-.profile-form input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.update-button {
-  width: 100%;
-  padding: 12px;
-  margin-top: 20px;
-  background-color: #4F96F4;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.update-button:hover {
-  background-color: #3b7dd8;
-}
-
-/* Responsivo */
-@media (max-width: 600px) {
-  .container {
+#Cart{
+    margin: 0;
     padding: 20px;
-  }
+    text-align: center;
+}
 
-  .avatar {
-    width: 80px;
-    height: 80px;
-  }
+#EditarPerfil{
+    max-width: 700px;
+    margin: 200px auto 0;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
 
-  .update-button {
+#EditarPefil h1 {
+  text-align: center;
+}
+
+#sesion {
+    margin-bottom: 15px;
+}
+
+.Logo-OfferStore{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+input, button{
+    width: 100%;
+    padding: 12px 15px;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+button{
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+#btnActualizarPerfil{
+    background-color:#F2B705;
+    color: white;
+}
+
+#btnActualizarPerfil:hover{
+    background-color: #cf9c03;
+}
+
+#BtnCambiarFoto{
+    background: none;
+    color: #4F96F4;
+    border: none;
+    width: auto;
+    padding: 0;
+    margin-bottom: 15px;
+    text-align: right;
+    cursor: pointer;
     font-size: 14px;
-  }
+    text-decoration: underline;
+}
+
+fieldset{
+    margin-bottom: 10px;
+    padding: 0%;
+    width: 100%;
+    border: none;
+}
+
+legend{
+    text-align: left;
+}
+
+
+@media (min-width: 1024px){
+    #Cart{
+        max-width: 720px;
+        font-size: 1.125rem;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
