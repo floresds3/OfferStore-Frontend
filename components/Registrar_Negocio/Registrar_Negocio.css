@@ -1,0 +1,113 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#Cart{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-left{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.header-center{
+    max-width: 700px;
+    margin: 200px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-center img{
+    padding: 0 30px 0 0;
+}
+
+.card{
+    max-width: 900px;
+    margin: 100px auto;
+    display: flex;
+ 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+}
+
+.card-logo{
+    width: 40%;
+    background-color: #F2B705;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-form{
+    width: 60%;
+    background-color: #fff;
+    padding: 40px;
+
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.card-form h3{
+    font-size: 15px;
+    font-weight: normal;
+
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.card-form fieldset{
+    margin-bottom: 10px;
+    padding: 0%;
+    width: 100%;
+    border: none;
+    
+}
+
+legend{
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.card-form input{
+    width: 100%;
+    padding: 12px 15px;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    font-size: 14px;
+}
+
+.card-form .btnprimario{
+    position: absolute;
+    bottom: 30px;
+    right: 38px;
+
+    background-color: #F2B705;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-size: 15px;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    color: white;
+}
+
+.btnprimario:hover{
+    background-color: #cf9c03;
+}
+
